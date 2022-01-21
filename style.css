@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: sans-serif;
+}
+.search-icon i{
+    color: white;
+}
+
+.header-content .para{
+    font-size: small;
+}
+
+.header-content .para span{
+    color: white;
+    background-color: black;
+    
+}
+/* element.style{
+    position: relative;
+} */
+
+.landing .text-landing{
+    left: 0%;
+    transform: translate(0%,-108%);
+}
+.landing .fashion-blog b{
+    color: rgb(49, 19, 18);
+    font-size: 2.7rem;
+
+}
+.landing .subscribe{
+    background-color: rgb(236, 188, 211);
+}
+.landing .subscribe:hover{
+    background-color: white;
+}
+
+.list-group-flush li:hover{
+    background-color: rgb(165, 165, 185);
+
+}
+
+.like .like-1{
+    font-size: 10px;
+
+}
+.smoke .great{
+    font-size: 12px;
+}
+.card-body .tags{
+    font-size: 12px;
+}
+
+.footer1{
+    background-color: #b39e9e;
+}
+.footer1 p{
+    font-size: 9px;
+}
+.footer{
+    
+    position: absolute;
+    margin-top: 3rem;
+
+}
+.footer1 a{
+    text-decoration: none;
+}
+.footer-section a{
+    font-size: 8px;
+
+}
+
+@media screen and (max-width:900px) {
+    .landing .fashion-blog b{
+        font-size: 2rem;
+
+    }
+
+    
+}
+@media screen and (max-width:600px) {
+    .landing .fashion-blog b{
+        display: none;
+
+    }
+
+    
+}
+
+
+
